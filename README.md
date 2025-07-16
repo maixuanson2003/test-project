@@ -1,31 +1,30 @@
-## 📌 Mục tiêu
+## Chạy ứng dụng backend
 
-Xây dựng ứng dụng **To-do List** gồm frontend (Vue.js), backend (Node.js + Express) và MySQL làm database.
+## 🚀 Cách chạy bằng Docker
 
----
+### 1. Yêu cầu
 
-## 🧱 Yêu cầu kỹ thuật
+- Docker
+- Docker Compose
 
-- **Frontend:** Vue3 (ưu tiên) hoặc tuỳ chọn
-- **Backend:** Node.js + Express
-- **Database:** MySQL
-- **API giao tiếp:** RESTful (sử dụng Axios để gọi API)
-- **Triển khai:** Local (hoặc Docker nếu bạn muốn)
+### 2. Chạy ứng dụng
 
----
+- docker-compose up --build
 
-## 🛠 Chức năng yêu cầu
+## 🚀 Chạy ứng dụng Frontend (Next.js)
 
-### 1. Quản lý công việc (To-do)
+### 1. Yêu cầu
 
-- [ ] **Thêm công việc mới**
-  - Nhập tiêu đề công việc, mô tả (tùy chọn), ngày hết hạn
-- [ ] **Xem danh sách công việc**
-  - Hiển thị toàn bộ danh sách công việc
-  - Có thể lọc theo trạng thái (Chưa hoàn thành / Đã hoàn thành)
-- [ ] **Chỉnh sửa công việc**
-  - Cập nhật tiêu đề, mô tả, hoặc đánh dấu đã hoàn thành
-- [ ] **Xoá công việc**
-  - Xoá 1 task khỏi hệ thống
+- Node.js (khuyến nghị ≥ 16.x)
+- npm hoặc yarn
 
----
+### 2. Cài đặt thư viện
+
+Chuyển vào thư mục frontend và cài đặt dependencies:
+
+- cd frontend
+- npm install
+
+### 3. chạy ứng dụng
+
+- npm run dev
